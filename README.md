@@ -1,4 +1,5 @@
 # Ruby on Rails Tutorial sample application
+[![Gitpod](https://img.shields.io/badge/Gitpod-Start_Workspace-217daf.svg)](https://gitpod.io/#https://github.com/gitpod-io/railstutorial_sample_app_4th_ed)
 
 This is the reference implementation of the sample application for the 4th edition of [*Ruby on Rails Tutorial: Learn Web Development with Rails*](http://www.railstutorial.org/) by [Michael Hartl](http://www.michaelhartl.com/).
 
