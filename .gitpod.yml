@@ -1,8 +1,9 @@
 ports:
   - port: 3000
-    protocol: "http"
+    onOpen: open-preview
 tasks:
-  - command: >
+  - init: >
       bundle install --without production &&
-      rails db:migrate &&
+      rails db:migrate
+    command: >
       rails server
