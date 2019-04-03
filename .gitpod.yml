@@ -7,3 +7,6 @@ tasks:
       rails db:migrate
     command: >
       rails server
+github:
+    prebuilds:
+        pullRequestsFromForks: true
