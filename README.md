@@ -8,24 +8,9 @@ This is the reference implementation of the sample application for the 4th editi
 
 All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/) is available jointly under the MIT License and the Beerware License. See [LICENSE.md](LICENSE.md) for details.
 
-## Getting started
+## Working with the code
 
-To get started with the app, clone the repo and then install the needed gems:
-
-```
-$ cd /path/to/repos
-$ git clone https://bitbucket.org/railstutorial/sample_app_4th_ed.git sample_app_reference
-$ cd sample_app_reference
-$ bundle install --without production
-```
-
-Next, migrate the database:
-
-```
-$ rails db:migrate
-```
-
-Finally, run the test suite to verify that everything is working correctly:
+Run the test suite to verify that everything is working correctly:
 
 ```
 $ rails test
